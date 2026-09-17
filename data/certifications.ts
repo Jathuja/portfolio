@@ -1,0 +1,60 @@
+import { Certification } from "@/lib/types";
+
+export const certifications: Certification[] = [
+  {
+    name: "Developing Frontend Apps with React",
+    issuer: "IBM, Coursera",
+    date: "2024",
+    url: "https://www.linkedin.com/posts/jathuja-sithamparanathan-508953301_completion-certificate-for-developing-front-end-share-7332447249936916480-EcnP/",
+    credentialId: "",
+    skills: ["React", "JavaScript", "Frontend Development", "REST APIs"],
+  },
+  {
+    name: "Introduction to Cloud 101",
+    issuer: "Amazon Web Services (AWS)",
+    date: "2024",
+    url: "https://awseducate.instructure.com/courses/891/modules",
+    credentialId: "",
+    skills: ["Cloud Computing", "AWS Fundamentals", "Cloud Architecture"],
+  },
+  {
+    name: "Get started with GitHub Copilot",
+    issuer: "Microsoft",
+    date: "2024",
+    url: "https://learn.microsoft.com/api/achievements/share/en-us/JathujaSithamparanathan-4939/JHV7HHVT?sharingId=9A3E6E8D7C5762C8",
+    credentialId: "",
+    skills: ["GitHub Copilot", "AI-Assisted Development", "Productivity"],
+  },
+  {
+    name: "Generate documentation using GitHub Copilot tools",
+    issuer: "Microsoft Learn",
+    date: "2024",
+    url: "https://learn.microsoft.com/api/achievements/share/en-us/JathujaSithamparanathan-4939/P6RF6RS4?sharingId=9A3E6E8D7C5762C8",
+    credentialId: "",
+    skills: ["GitHub Copilot", "Documentation", "Developer Tooling"],
+  },
+  {
+    name: "Introduction to HTML, CSS and JavaScript",
+    issuer: "Coursera",
+    date: "2023",
+    url: "#",
+    credentialId: "",
+    skills: ["HTML5", "CSS3", "JavaScript", "Web Fundamentals"],
+  },
+  {
+    name: "Python for Beginners",
+    issuer: "University of Moratuwa",
+    date: "2023",
+    url: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php?code=qCyjC6wNim&qrcode=1",
+    credentialId: "",
+    skills: ["Python", "Programming Fundamentals"],
+  },
+  {
+    name: "Web Design for Beginners",
+    issuer: "University of Moratuwa",
+    date: "2023",
+    url: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php?code=AzwIrEXjj5&qrcode=1",
+    credentialId: "",
+    skills: ["Web Design", "UI Fundamentals", "HTML & CSS"],
+  },
+];
