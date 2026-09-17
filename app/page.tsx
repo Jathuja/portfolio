@@ -163,7 +163,7 @@ export default function HomePage() {
             {/* 2-Sentence Short Intro */}
             <motion.p
               variants={itemVariants}
-              className="font-sans text-lg leading-relaxed text-muted-foreground md:text-xl"
+              className="font-sans text-sm sm:text-base leading-relaxed text-muted-foreground md:text-base"
             >
               Third-year Information Technology undergraduate at the University of
               Moratuwa, interested in software engineering and full-stack development.

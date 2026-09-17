@@ -74,7 +74,7 @@ export function AboutContent() {
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight text-foreground leading-[1.08]">
               About Me
             </h1>
-            <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl leading-relaxed">
+            <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
               Third-year Information Technology undergraduate at the University of Moratuwa, interested in software engineering and full-stack development.
             </p>
           </div>
