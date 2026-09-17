@@ -1,6 +1,6 @@
 "use client";
+import { useState } from "react";
 
-import React, { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { ExternalLink, Briefcase, GraduationCap, Award, Sparkles, Code2 } from "lucide-react";
 import { TimelineItem } from "@/lib/types";

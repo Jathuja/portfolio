@@ -1,6 +1,6 @@
 "use client";
+import { useState } from "react";
 
-import React, { useState } from "react";
 import { Check, Copy, Share2, Twitter, Linkedin } from "lucide-react";
 
 interface ShareArticleProps {

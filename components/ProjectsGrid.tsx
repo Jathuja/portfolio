@@ -1,6 +1,6 @@
 "use client";
+import { useState, useMemo } from "react";
 
-import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import {

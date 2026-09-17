@@ -1,6 +1,6 @@
 "use client";
+import { useState } from "react";
 
-import React, { useState } from "react";
 import { ExternalLink, ShieldCheck } from "lucide-react";
 import { Certification } from "@/lib/types";
 

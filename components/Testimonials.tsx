@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Quote, MessageSquareQuote } from "lucide-react";
 import { testimonials as defaultTestimonials } from "@/data/testimonials";
