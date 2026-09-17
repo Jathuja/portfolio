@@ -54,7 +54,7 @@ export function ProfileImage({ variant, className = "" }: ProfileImageProps) {
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 33vw"
-              className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+              className="object-cover object-center transition-transform duration-500 group-hover:scale-[1.03]" style={{ transform: 'scale(0.9)', transformOrigin: 'center top' }}
               onError={() => setImgError(true)}
             />
           ) : (
@@ -110,7 +110,7 @@ export function ProfileImage({ variant, className = "" }: ProfileImageProps) {
               fill
               priority
               sizes="(max-width: 768px) 100vw, 40vw"
-              className="object-cover object-top"
+              className="object-cover object-center" style={{ transform: 'scale(0.9)', transformOrigin: 'center top' }}
               onError={() => setImgError(true)}
             />
           ) : (
