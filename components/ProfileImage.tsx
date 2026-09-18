@@ -110,7 +110,7 @@ export function ProfileImage({ variant, className = "" }: ProfileImageProps) {
               fill
               priority
               sizes="(max-width: 768px) 100vw, 40vw"
-              className="object-cover object-center" style={{ transform: 'scale(0.9)', transformOrigin: 'center top' }}
+              className="object-cover object-center" style={{ transform: 'scale(0.85)', transformOrigin: 'center top' }}
               onError={() => setImgError(true)}
             />
           ) : (

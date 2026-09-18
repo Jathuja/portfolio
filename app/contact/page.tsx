@@ -48,7 +48,7 @@ export default function ContactPage() {
               <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-normal tracking-tight text-foreground leading-[1.08]">
                 Let&apos;s connect.
               </h1>
-              <p className="text-muted-foreground text-xl sm:text-2xl leading-relaxed">
+              <p className="text-muted-foreground text-lg sm:text-xl leading-relaxed">
                 I am currently looking for a Software Engineering Internship and would be happy to connect about internship opportunities, projects, or technical discussions.
               </p>
 
