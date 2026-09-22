@@ -37,6 +37,10 @@ export const timelineData: TimelineItem[] = [
     description:
       "TravelHub is a full-stack travel booking and management platform developed as a university group project. My main contributions were the Hotel Owner module and AI chatbot.",
     tags: ["React", "Spring Boot", "FastAPI", "LangChain", "PostgreSQL"],
+    link: {
+      label: "Live Demo",
+      url: "https://travelhublanka.netlify.app",
+    },
     highlight: true,
   },
   {

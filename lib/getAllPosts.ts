@@ -118,6 +118,10 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   const nativePost = getNativePostBySlug(slug);
   if (nativePost) return nativePost;
 
+  // Check curated posts
+  const curated = curatedPosts.find((p) => p.slug === slug);
+  if (curated) return curated;
+
   // Otherwise check Medium posts
   const mediumPosts = await getMediumPosts();
   return mediumPosts.find((p) => p.slug === slug) || null;

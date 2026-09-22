@@ -36,9 +36,11 @@ export const projects: Project[] = [
     architectureNotes:
       "Spring Boot handles core booking and management logic with Spring Security (JWT) and Spring Data JPA; FastAPI serves the AI assistant and ML services. Data is persisted in PostgreSQL with Flyway migrations, vector embeddings in ChromaDB, and media assets in Supabase Storage.",
     links: {
-      github: "https://github.com/Jathuja-Sithamparanathan",
+      demo: "https://travelhublanka.netlify.app",
+      github: "https://github.com/Jathuja",
     },
-    githubUrl: "https://github.com/Jathuja-Sithamparanathan",
+    liveUrl: "https://travelhublanka.netlify.app",
+    githubUrl: "https://github.com/Jathuja",
     status: "Completed",
     metrics: [
       { label: "AI Pipeline", value: "RAG / LangChain" },
@@ -85,9 +87,9 @@ export const projects: Project[] = [
     architectureNotes:
       "Frontend built with React and TypeScript; Flutter mobile app independently designed with Provider state management and secure local storage. Both clients communicate with a shared FastAPI backend over REST and WebSockets, with MongoDB for flexible document storage.",
     links: {
-      github: "https://github.com/Jathuja-Sithamparanathan",
+      github: "https://github.com/Jathuja/task-manager",
     },
-    githubUrl: "https://github.com/Jathuja-Sithamparanathan",
+    githubUrl: "https://github.com/Jathuja/task-manager",
     status: "In Progress",
     metrics: [
       { label: "Real-time Sync", value: "WebSockets" },
@@ -131,9 +133,9 @@ export const projects: Project[] = [
     architectureNotes:
       "Angular frontend with PrimeNG component library and Tailwind CSS for styling; Node.js + Express.js REST API backend with PostgreSQL as the relational database and JWT-based authentication.",
     links: {
-      github: "https://github.com/Jathuja-Sithamparanathan",
+      github: "https://github.com/Jathuja",
     },
-    githubUrl: "https://github.com/Jathuja-Sithamparanathan",
+    githubUrl: "https://github.com/Jathuja",
     status: "In Progress",
     metrics: [
       { label: "Frontend", value: "Angular + PrimeNG" },

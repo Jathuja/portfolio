@@ -5,9 +5,9 @@ import { ProjectCaseStudy } from "@/components/ProjectCaseStudy";
 import { siteConfig } from "@/lib/config";
 
 interface ProjectPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export function generateStaticParams() {
@@ -16,8 +16,11 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: ProjectPageProps): Metadata {
-  const project = projects.find((p) => p.slug === params.slug);
+export async function generateMetadata({
+  params,
+}: ProjectPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
     return {
@@ -56,8 +59,9 @@ export function generateMetadata({ params }: ProjectPageProps): Metadata {
   };
 }
 
-export default function ProjectDetailPage({ params }: ProjectPageProps) {
-  const projectIndex = projects.findIndex((p) => p.slug === params.slug);
+export default async function ProjectDetailPage({ params }: ProjectPageProps) {
+  const { slug } = await params;
+  const projectIndex = projects.findIndex((p) => p.slug === slug);
   const project = projects[projectIndex];
 
   if (!project) {
